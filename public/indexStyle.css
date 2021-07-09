@@ -1,0 +1,118 @@
+body { 
+    background: url('gradient5.jpg') no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+#header{
+    display: flex;
+    border: 3px solid red;
+    width: auto;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMe{
+    display: flex;
+    border: 3px solid orange;
+    width: 202vh;
+    height: 15vh;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 8vh;
+}
+
+#clickMe{
+    display: flex;
+    border: 3px solid orange;
+    position: absolute;
+    height: 15vh;
+    width: 202.6vh;
+    justify-content: center;
+}
+
+h4{
+    font-size: 4vh;
+}
+
+#main{
+    display: flex;
+    border: 3px solid yellow;
+    width: auto;
+    height: 65vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#linkedIn{
+    width: 15vh;
+    height: 15vh;
+    font-size: 10vh;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#jadePic{
+    box-shadow: 5px 3px 3px #A5532E;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 45vh;
+    height: 45vh;
+    position: relative;
+}
+
+#gitHub{
+    width: 15vh;
+    height: 15vh;
+    font-size: 10vh;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#languages{
+    display: flex;
+    position: absolute;
+    width: 202.6vh;
+    height: 65vh;
+    justify-content: center;
+}
+
+h2{
+    align-self: flex-end;
+    margin-bottom: .5vh;
+}
+
+#footer{
+    display: flex;
+    border: 3px solid green;
+    width: auto;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#rpg{
+    width: 25vh;
+    height: 15vh;
+    font-size: 10vh;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

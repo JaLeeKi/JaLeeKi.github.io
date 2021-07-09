@@ -1,0 +1,91 @@
+body { 
+    background: url('gradient5.jpg') no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+#aboutHeader{
+    display: flex;
+    border: 3px solid red;
+    width: auto;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#clickMe{
+    display: flex;
+    border: 3px solid orange;
+    position: absolute;
+    height: 15vh;
+    width: 202.6vh;
+    justify-content: center;
+}
+
+h4{
+    font-size: 4vh;
+}
+
+#aboutMain{
+    display: flex;
+    border: 3px solid yellow;
+    width: auto;
+    height: 65vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#aboutPic{
+    box-shadow: 5px 3px 3px #A5532E;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 45vh;
+    height: 45vh;
+    position: relative;
+}
+
+#aboutFooter{
+    display: flex;
+    border: 3px solid green;
+    width: auto;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#languages{
+    display: flex;
+    position: absolute;
+    width: 202.6vh;
+    height: 65vh;
+    justify-content: center;
+}
+
+h2{
+    align-self: flex-end;
+    margin-bottom: .5vh;
+}
+
+#cssLogo{
+    width: 15vh;
+    height: 15vh;
+}
+
+#htmlLogo{
+    width: 15vh;
+    height: 15vh;
+}
+
+#jsLogo{
+    width: 15vh;
+    height: 15vh;
+}
+
+#nodejsLogo{
+    width: 15vh;
+    height: 15vh;
+}
+
+#gitLogo{
+    width: 15vh;
+    height: 15vh;
+}
