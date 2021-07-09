@@ -5,7 +5,7 @@ body {
 
 #header{
     display: flex;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: auto;
     height: 15vh;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
 
 #aboutMe{
     display: flex;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     width: 202vh;
     height: 15vh;
     justify-content: center;
@@ -30,7 +30,7 @@ h1{
 
 #clickMe{
     display: flex;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     position: absolute;
     height: 15vh;
     width: 202.6vh;
@@ -43,7 +43,7 @@ h4{
 
 #main{
     display: flex;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     width: auto;
     height: 65vh;
     justify-content: space-evenly;
@@ -103,7 +103,7 @@ label[for=gitHub]{
     width: 202.6vh;
     justify-content: center;
     align-self: flex-end;
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
 }
 
 h2{
@@ -113,7 +113,7 @@ h2{
 
 #footer{
     display: flex;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: auto;
     height: 15vh;
     justify-content: center;
