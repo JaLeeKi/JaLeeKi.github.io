@@ -50,9 +50,15 @@ h4{
     align-items: center;
 }
 
+label[for=linkedIn]{
+    font-weight: 750;
+    display: block;
+    text-align: center;
+}
+
 #linkedIn{
-    width: 15vh;
-    height: 15vh;
+    width: 10vh;
+    height: 10vh;
     font-size: 10vh;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -69,11 +75,19 @@ h4{
     width: 45vh;
     height: 45vh;
     position: relative;
+    cursor:pointer;
+}
+
+
+label[for=gitHub]{
+    font-weight: 750;
+    display: block;
+    text-align: center;
 }
 
 #gitHub{
-    width: 15vh;
-    height: 15vh;
+    width: 11vh;
+    height: 11vh;
     font-size: 10vh;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -83,12 +97,13 @@ h4{
     outline:none;
 }
 
-#languages{
+#projects{
     display: flex;
     position: absolute;
     width: 202.6vh;
-    height: 65vh;
     justify-content: center;
+    align-self: flex-end;
+    border: 3px solid purple;
 }
 
 h2{

@@ -40,7 +40,25 @@ h4{
     border-radius: 50%;
     width: 45vh;
     height: 45vh;
-    position: relative;
+    position: absolute;
+    cursor:pointer;
+}
+
+#hobbies{
+    position: absolute;
+    width: 202.6vh;
+    align-self: flex-start;
+    border: 3px solid grey;
+    justify-content: space-between;
+    display: inline;
+}
+
+#experiences{
+    position: absolute;
+    width: 202.6vh;
+    align-self: flex-end;
+    border: 3px solid white;
+    justify-content: flex-end;
 }
 
 #aboutFooter{
@@ -56,8 +74,9 @@ h4{
     display: flex;
     position: absolute;
     width: 202.6vh;
-    height: 65vh;
     justify-content: center;
+    align-self: flex-end;
+    border: 3px solid purple;
 }
 
 h2{
